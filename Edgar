@@ -9,7 +9,7 @@ if(isset($_POST['email'])) {
          echo "Porfavor corrija estos errores e inténtelo de nuevo.<br /><br />";
         die();
     }
-     // Se valida que los campos del formulairo estén llenos
+     
      if(!isset($_POST['first_name']) ||
          !isset($_POST['last_name']) ||
          !isset($_POST['email']) ||
