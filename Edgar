@@ -64,5 +64,5 @@ Gracias! Nos pondremos en contacto contigo a la brevedad
 
 <?php
 }
-
+echo 'Esta es una modificación realizada al texto original realizada por Victor Sanabria';
 ?>
