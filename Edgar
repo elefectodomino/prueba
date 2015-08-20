@@ -15,7 +15,7 @@ if(isset($_POST['email'])) {
          !isset($_POST['email']) ||
          !isset($_POST['telephone']) ||
          !isset($_POST['message'])) {
-         die('Lo sentimos pero parece haber un problema con los datos enviados.');
+         die('Lo sentimos, al parecer hay problema con los datos enviados.');
      }
      $first_name = $_POST['first_name']; 
      $last_name = $_POST['last_name']; 
