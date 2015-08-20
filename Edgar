@@ -7,6 +7,7 @@ if(isset($_POST['email'])) {
          echo "Detalle de los errores.<br /><br />";
          echo $error."<br /><br />";
          echo "Porfavor corrija estos errores e inténtelo de nuevo.<br /><br />";
+         echo "intente nuevamente ingresar sus datos"; <br>
         die();
     }
      
