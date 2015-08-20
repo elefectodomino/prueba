@@ -3,7 +3,7 @@ if(isset($_POST['email'])) {
     $email_to = "eaestupinan2@misena.edu.co";
      $email_subject = "Contacto desde Web";
      function died($error) {
-         echo "Lo sentimos, hubo un error en sus datos y el formulario no puede ser enviado en este momento. ";
+         echo "Lo sentimos, varios errores en sus datos y el formulario no puede ser enviado en este momento. ";
          echo "Detalle de los errores.<br /><br />";
          echo $error."<br /><br />";
          echo "Porfavor corrija estos errores e inténtelo de nuevo.<br /><br />";
